@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+.gemini/
