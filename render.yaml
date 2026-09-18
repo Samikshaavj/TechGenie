@@ -2,6 +2,7 @@ services:
   - type: web
     name: techgenie-laptop-matchmaker
     env: python
+    plan: free
     buildCommand: "./render-build.sh"
     startCommand: "cd laptop-matchmaker/backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
     envVars:
